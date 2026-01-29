@@ -1,0 +1,16 @@
+field_name,field_type,required,options,description
+feedback_id,Auto number,yes,,Primary key
+user_id,Link to Users,yes,,Links to Users table
+cycle_id,Link to Cycles,no,,Links to Cycles table
+garment_id,Link to Garments,no,,Links to Garments table (for garment-specific feedback)
+feedback_type,Single select,yes,"FitIssue,QualityIssue,StyleFeedback,PositiveFeedback,Suggestion,Complaint",Category of feedback
+severity,Single select,yes,"Low,Medium,High,Critical",Priority level for resolution
+description,Long text,yes,,Detailed feedback description
+fit_rating,Rating (1-5),no,,Overall fit satisfaction rating
+would_wear_again,Checkbox,no,,Would user wear this garment again
+operator_notes,Long text,no,,Internal notes from operator
+action_taken,Long text,no,,Resolution or follow-up actions
+reported_at,Date & time,yes,,When feedback was received
+reported_by,Single select,yes,"User,Operator",Source of the feedback
+resolved_at,Date & time,no,,When feedback was resolved
+resolved,Checkbox,no,,Whether feedback has been addressed

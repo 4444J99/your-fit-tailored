@@ -1,0 +1,11 @@
+field_name,field_type,required,options,description
+comm_id,Auto number,yes,,Primary key
+user_id,Link to Users,yes,,Links to Users table
+cycle_id,Link to Cycles,no,,Links to Cycles table (optional)
+comm_type,Single select,yes,"BoxShipping,DeliveryConfirmed,ReturnReminder1,ReturnReminder2,OverdueWarning,HoldNotice,General",Type of communication
+channel,Single select,yes,"Email,SMS,Phone",Communication channel
+subject,Single line text,no,,Email subject or message summary
+sent_at,Date & time,yes,,When communication was sent
+sent_by,Single line text,yes,,Operator who sent it
+status,Single select,yes,"Sent,Failed,Bounced",Delivery status
+notes,Long text,no,,Additional context or special circumstances

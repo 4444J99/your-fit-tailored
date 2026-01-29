@@ -1,0 +1,16 @@
+field_name,field_type,required,options,description
+profile_id,Auto number,yes,,Primary key
+user_id,Link to Users,yes,,Links to Users table (single)
+top_size,Single select,yes,"XS,S,M,L,XL,XXL",Upper body size
+bottom_size,Single select,yes,"28,30,32,34,36,38,40",Lower body size (waist)
+dress_size,Single select,no,"0,2,4,6,8,10,12,14",Dress size (numeric)
+height_inches,Number,no,,User height in inches
+weight_lbs,Number,no,,User weight in pounds
+body_type,Single select,no,"Slim,Athletic,Average,Curvy,Plus",Body shape category
+style_preference,Multiple select,no,"Casual,Professional,Minimal,Bold,Classic",Preferred styles
+color_preference,Multiple select,no,"Neutrals,Darks,Brights,Pastels",Preferred color families
+avoid_colors,Multiple select,no,"Black,White,Red,Yellow,Blue,Green,Orange,Purple,Pink,Brown",Colors to exclude
+fit_notes,Long text,no,,Free-form fit notes
+source,Single select,yes,"Onboarding,Feedback,Operator",Where profile data came from
+created_at,Created time,yes,,Auto-populated
+updated_at,Last modified time,yes,,Auto-populated

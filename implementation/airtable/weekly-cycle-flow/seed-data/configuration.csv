@@ -1,0 +1,11 @@
+config_key,config_value,description
+scheduling_day,Sunday,Day of week to run auto-scheduling
+scheduling_time,18:00,Time to run auto-scheduling (24h format)
+commitment_lead_hours,48,Hours before ship date to lock commitment
+wear_window_days,5,Days in the wear window after delivery
+return_window_days,2,Days in return window before escalation begins
+reminder_day_1,1,Days after return window opens for first reminder
+reminder_day_2,3,Days overdue for second reminder
+hold_threshold_days,7,Days overdue to apply HoldLogistics to user
+loss_threshold_days,14,Days overdue to declare garments as Lost
+ship_day_offset,2,Days after commitment before ship date
