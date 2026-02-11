@@ -5,6 +5,14 @@
 
 # Your-Fit-Tailored
 
+[![CI](https://github.com/organvm-iii-ergon/your-fit-tailored/actions/workflows/ci.yml/badge.svg)](https://github.com/organvm-iii-ergon/your-fit-tailored/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/badge/coverage-pending-lightgrey)](https://github.com/organvm-iii-ergon/your-fit-tailored)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/organvm-iii-ergon/your-fit-tailored/blob/main/LICENSE)
+[![Organ III](https://img.shields.io/badge/Organ-III%20Ergon-F59E0B)](https://github.com/organvm-iii-ergon)
+[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/organvm-iii-ergon/your-fit-tailored)
+[![Markdown](https://img.shields.io/badge/lang-Markdown-informational)](https://github.com/organvm-iii-ergon/your-fit-tailored)
+
+
 **A temporal service delivering continuous, low-friction apparel experiences through circular weekly subscription.**
 
 Your-Fit-Tailored is a specification-driven seed for a circular apparel subscription platform. Users never shop, never decide, and never accumulate garments. A curated box of outfits arrives every week; the user wears the items, returns last week's box, and the system cleans, refurbishes, and redeploys inventory through a closed-loop pipeline. Fit confidence compounds with every cycle. Cognitive load asymptotically approaches zero.
