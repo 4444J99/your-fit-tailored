@@ -7,5 +7,5 @@
 
 export { SubscriptionManager, SubscriptionTier } from "./subscription.js";
 export { ProductCatalog } from "./catalog.js";
-export type { Subscription, Product, MatchResult } from "./subscription.js";
-export type { CatalogFilter } from "./catalog.js";
+export type { Subscription, MatchResult } from "./subscription.js";
+export type { Product, CatalogFilter } from "./catalog.js";
