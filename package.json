@@ -1,0 +1,16 @@
+{
+  "name": "your-fit-tailored",
+  "version": "0.1.0",
+  "description": "Subscription management, catalog browsing, and personalized matching for tailored fitness products",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
