@@ -30,7 +30,14 @@ describe("ProductCatalog", () => {
   it("should search by name", () => {
     const catalog = new ProductCatalog();
     catalog.addProduct(makeProduct());
-    catalog.addProduct(makeProduct({ id: "P002", name: "Yoga Mat", tags: ["flexibility"] }));
+    catalog.addProduct(
+      makeProduct({
+        id: "P002",
+        name: "Yoga Mat",
+        tags: ["flexibility"],
+        description: "Non-slip yoga mat for floor exercises",
+      })
+    );
     const results = catalog.search("resistance");
     expect(results).toHaveLength(1);
     expect(results[0].id).toBe("P001");
