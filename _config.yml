@@ -1,0 +1,6 @@
+title: "YourFit Tailored"
+description: "YourFit Tailored: circular apparel subscription specs"
+theme: minima
+include:
+  - docs
+  - README.md
