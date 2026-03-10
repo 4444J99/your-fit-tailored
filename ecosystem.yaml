@@ -1,0 +1,11 @@
+schema_version: '1.0'
+repo: your-fit-tailored
+organ: III
+display_name: Specification-driven seed for circular weekly apparel subscription platform
+delivery:
+- platform: web_app
+  status: not_started
+revenue:
+- platform: subscription
+  status: planned
+  priority: critical
